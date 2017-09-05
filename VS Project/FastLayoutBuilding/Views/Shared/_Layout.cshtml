@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/FLB.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <script type="text/javascript" src="~/Scripts/FLB.js"></script>
+    <div class="working-area" id="working-area">
+        <strong id="zag" data-position-x="0" data-position-y="0" class="flb" data-position-parent="noparent" data-object-float-w="2" data-object-float-h="1">Tuning Droid</strong>
+        <strong id="zag2" data-position-x="20" data-position-y="-8" class="flb" data-position-parent="#zag" data-object-float-w="2" data-object-float-h="1">by vovaza29</strong>
+        <button type="button" id="highlightonoff">Highlight</button>
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+        $(function () {
+            var lighted = false;
+
+            InitializeFLB();
+            $(window).resize(InitializeFLB);
+            $('#highlightonoff').click(function () {
+                HighlightWorkingArea(!lighted, '#3F51B5');
+                lighted = !lighted;
+                $('#zag').attr('data-position-x','100');
+            });
+        });
+    </script>
+</body>
+</html>

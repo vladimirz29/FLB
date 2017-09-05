@@ -1,0 +1,9 @@
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\bin\Debug\FLBuilder.exe.config
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\bin\Debug\FLBuilder.exe
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\bin\Debug\FLBuilder.pdb
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\obj\Debug\FLBuilder.csprojResolveAssemblyReference.cache
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\obj\Debug\FLBuilder.Form1.resources
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\obj\Debug\FLBuilder.Properties.Resources.resources
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\obj\Debug\FLBuilder.csproj.GenerateResource.Cache
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\obj\Debug\FLBuilder.exe
+c:\users\vladimir\documents\visual studio 2015\Projects\FastLayoutBuilding\FLBuilder\obj\Debug\FLBuilder.pdb

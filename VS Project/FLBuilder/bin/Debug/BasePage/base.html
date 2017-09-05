@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLB</title>
+</head>
+<body>
+	<script type="text/javascript" src="Scripts/jquery-2.2.4.js"></script>
+    <script type="text/javascript" src="Scripts/FLB.js"></script>
+    <div class="working-area" id="working-area">
+        <span data-position-x="0" data-position-y="0" class="flb" data-position-parent="noparent" data-object-float-w="2" data-object-float-h="1">Hello world</span>
+    </div>
+    
+    <script>
+        $(function () {
+            InitializeFLB();
+            $(window).resize(InitializeFLB);
+        });
+    </script>
+</body>
+</html>
